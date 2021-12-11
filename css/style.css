@@ -1,0 +1,76 @@
+body {
+  margin: 0 0;
+}
+.profile {
+  background-color: #bfd7ff;
+}
+.work {
+  background-color: #ccd7c5;
+}
+.tech {
+  background-color: #fed99b;
+}
+.project {
+  background-color: #fbffe2;
+}
+.name {
+  padding-left: 25px;
+}
+.padstuff {
+  padding-bottom: 20px;
+}
+h3 {
+  margin-left: 10px;
+}
+nav {
+  background: #8da9c4;
+  width: 100%;
+  padding: 10px 0;
+}
+nav .menu {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+.logo a {
+  text-decoration: none;
+  background: #f8f0fb;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.logo a:hover {
+  opacity: 0.8;
+}
+
+.menu .github a {
+  text-decoration: none;
+  background: #484848;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+.menu .github a:hover {
+  opacity: 0.8;
+}
+
+/* CCD7C5: ash grey
+
+BFD7FF: light steel blue
+E2FDFF: light cyan
+
+8DA9C4: cadet gray
+
+394053: charcoal button
+EEF4ED: mint cream button */
