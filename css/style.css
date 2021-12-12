@@ -22,12 +22,15 @@ body {
 h3 {
   margin-left: 10px;
 }
-nav {
+.head {
+  height: 40px;
+}
+section {
   background: #8da9c4;
   width: 100%;
   padding: 10px 0;
 }
-nav .menu {
+section .menu {
   max-width: 1250px;
   margin: auto;
   display: flex;
@@ -47,6 +50,7 @@ nav .menu {
   border-radius: 50px;
   cursor: pointer;
   transition: opacity 0.2s ease;
+  padding-top: 7px;
 }
 .logo a:hover {
   opacity: 0.8;
@@ -60,6 +64,7 @@ nav .menu {
   font-weight: 600;
   padding: 10px 10px;
   border-radius: 50px;
+  padding-top: 7px;
 }
 .menu .github a:hover {
   opacity: 0.8;
