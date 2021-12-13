@@ -58,6 +58,9 @@ section .menu {
 .logo a:hover {
   opacity: 0.8;
 }
+.project ul {
+  list-style: none;
+}
 
 .menu .github a {
   text-decoration: none;
