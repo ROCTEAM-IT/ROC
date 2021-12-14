@@ -7,6 +7,9 @@ body {
 .work {
   background-color: #ccd7c5;
 }
+p {
+  line-height: 1.5;
+}
 .tech {
   background-color: #fed99b;
 }
