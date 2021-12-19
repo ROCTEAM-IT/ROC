@@ -10,6 +10,9 @@ body {
 p {
   line-height: 1.5;
 }
+li {
+  line-height: 1.5;
+}
 .tech {
   background-color: #fed99b;
 }
